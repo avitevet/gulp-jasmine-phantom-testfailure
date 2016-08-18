@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "engines": {
+    "node": ">=4"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+		"gulp-jasmine-phantom": "git://github.com/dflynn15/gulp-jasmine-phantom"
+  }
+}
