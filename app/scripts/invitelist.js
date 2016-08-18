@@ -6,7 +6,7 @@ const InviteListMode = {
 	RO: 1
 };
 
-var InviteList = function(selector, mode = InviteListMode.RW) {
+var InviteList = function(selector, mode) {
 	var self = this;
 	this.rootEl = typeof(selector) === 'string' ? document.querySelector(selector) : selector;
 	this.mode = mode;
@@ -55,7 +55,7 @@ InviteList.prototype.hide = function() {
 	* @return true if the element was added, false otherwise.  Can return false
 	*         when the email already exists in the list, even if the label/text doesn't.
 	*/
-InviteList.prototype.addEntry = function(entry, initial = false) {
+InviteList.prototype.addEntry = function(entry, initial) {
 	// if the entry is already in the list, don't add it
 	var contains = this.entries.some(function(e) {
 		return (e.email === entry.email);

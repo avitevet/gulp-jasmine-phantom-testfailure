@@ -14,9 +14,9 @@ describe('InviteList', function() {
 
 	it('should add an entry', function() {
 		var dom = getInviteListFixture();
-		var inviteList = new InviteList(dom);
+		var inviteList = new InviteList(dom, 1);
 
-		inviteList.addEntry({email: 'avi@avi.com', text:'Avi'});
+		inviteList.addEntry({email: 'avi@avi.com', text:'Avi'}, false);
 
 		var entries = dom.querySelector('#entries');
 		expect(entries.querySelector('#noguests').classList.toString().split(/\s+/)).toContain('hidden');

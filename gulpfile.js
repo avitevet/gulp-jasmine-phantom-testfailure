@@ -7,6 +7,7 @@ gulp.task('test', function() {
 		integration: true,
 		keepRunner: 'test',
 		includeStackTrace: true,
+		jasmineVersion: '2.4',
 		vendor: ['app/scripts/invitelist.js']
 	}));
 });
