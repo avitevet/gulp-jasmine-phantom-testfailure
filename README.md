@@ -5,6 +5,13 @@ This repository shows that, on my win10 system with the following specifications
 * node v4.4.7
 * npm 3.10.5
 
+To run this example, just install node & npm, then run:
+
+```
+npm install
+gulp test
+```
+
 When I run "gulp test" I get one failure: 
 
 ```
@@ -15,12 +22,7 @@ Failures:
 
 When I open the generated specRunner.html in chrome, the test passes.
 
-To run this example, just install node & npm, then run:
 
-```
-npm install
-gulp test
-```
 
 
 
