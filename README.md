@@ -22,7 +22,9 @@ Failures:
 
 When I open the generated specRunner.html in chrome, the test passes.
 
+# License
 
+This is provided under the [MIT License](http://choosealicense.com/licenses/mit/).
 
 
 
