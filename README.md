@@ -19,6 +19,7 @@ I ran this test using these tools & versions:
 To run this example, just install node & npm as above, then run:
 
 ```
+git checkout 8eaf409a248e90a704ab7a9d8020c0c303596a9b
 npm install
 gulp test
 ```
