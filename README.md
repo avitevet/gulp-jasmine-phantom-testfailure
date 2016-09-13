@@ -1,11 +1,18 @@
 # gulp-jasmine-phantom-testfailure
 
-This repository shows that, on my win10 system with the following specifications:
+This repository shows a failure that I am encountering when using gulp/jasmine/phantomjs.  
+The test fails when run in gulp, but when I open the generated specRunner.html in chrome, the test passes.
+
+## Prerequisites
+
+I ran this test using these tools & versions:
 
 * node v4.4.7
 * npm 3.10.5
 
-To run this example, just install node & npm, then run:
+## Running the example
+
+To run this example, just install node & npm as above, then run:
 
 ```
 npm install
