@@ -3,6 +3,10 @@
 This repository shows a failure that I am encountering when using gulp/jasmine/phantomjs.  
 The test fails when run in gulp, but when I open the generated specRunner.html in chrome, the test passes.
 
+## Resolution
+
+I fixed the problem by removing default values for parameters - apparently the version of phantomjs I was using did not support this JS feature.
+
 ## Prerequisites
 
 I ran this test using these tools & versions:
